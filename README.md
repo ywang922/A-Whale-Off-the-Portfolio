@@ -1,4 +1,4 @@
-## Python-Pandas-Homework
+## Python-Pandas-whale-portfolios-analysis
 
 #### Determine whether the algorithmic strategies outperform both the market (S&P TSX 60) and the whales portfolios.
 
