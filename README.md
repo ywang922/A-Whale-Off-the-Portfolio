@@ -1,4 +1,4 @@
-## Python-Pandas-whale-portfolios-analysis
+## A-Whale-Off-the-Portfolio
 
 #### Determine whether the algorithmic strategies outperform both the market (S&P TSX 60) and the whales portfolios.
 
