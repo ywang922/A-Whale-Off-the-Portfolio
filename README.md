@@ -1,4 +1,4 @@
-# Unit 4 Homework Assignment: A Whale Off the Port(folio)
+# A-Whale-Off-the-Portfolio
 
 ![Portfolio Analysis](Images/portfolio-analysis.png)
 
@@ -10,33 +10,6 @@ You just learned these quantitative analysis techniques with Python and Pandas, 
 
 You need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market ([S&P TSX 60 Index](https://en.wikipedia.org/wiki/S%26P/TSX_60)).
 
-For this homework assignment, you have three main tasks:
-
-1. [Read in and Wrangle Returns Data](#Prepare-the-Data)
-
-2. [Determine Success of Each Portfolio](#Conduct-Quantitative-Analysis)
-
-3. [Choose and Evaluate a Custom Portfolio](#Create-a-Custom-Portfolio)
-
----
-
-## Instructions
-
-**Files:**
-
-* [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb)
-
-* [algo_returns.csv](Starter_Code/Resources/algo_returns.csv)
-
-* [otex_historical.csv](Starter_Code/Resources/otex_historical.csv)
-
-* [sp_tsx_history.csv](Starter_Code/Resources/sp_tsx_history.csv)
-
-* [l_historical.csv](Starter_Code/Resources/l_historical.csv)
-
-* [shop_historical.csv](Starter_Code/Resources/shop_historical.csv)
-
-* [whale_returns.csv](Starter_Code/Resources/whale_returns.csv)
 
 ### Prepare the Data
 
@@ -136,24 +109,3 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 ---
 
-## Hints
-
-* After reading each CSV file, don't forget to sort each DataFrame in ascending order by the Date using `sort_index`. This is especially important when working with time series data, as we want to make sure Date indexes go from earliest to latest.
-
-* The Pandas functions used in class this week will be useful for this assignment.
-
-* Be sure to use `head()` or `tail()` when you want to look at your data, but don't want to print to a large DataFrame.
-
----
-
-## Submission
-
-1. Use the provided starter Jupyter Notebook to house the code for your data preparation, analysis, and visualizations. Put any analysis or answers to assignment questions in raw text (markdown) cells in the report.
-
-2. Submit your notebook to a new GitHub repository.
-
-3. Add the URL of your GitHub repository to your assignment when submitting via Bootcamp Spot.
-
----
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
