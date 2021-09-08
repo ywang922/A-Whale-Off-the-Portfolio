@@ -24,13 +24,6 @@ then I used this analysis to create a custom portfolio of stocks *(TGT ,TJX, WMT
 
 3. Removed dollar signs from the numeric values and converted the data types as needed.
 
-
-![fix-data](Images/sp500-with.png)
- 
- 
-                ||
-                ||
-                \/
 ![fixed-data](Images/sp500-without.png)
 
 4. Converted the S&P 500 closing prices to daily returns.
